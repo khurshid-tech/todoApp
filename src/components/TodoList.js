@@ -30,7 +30,7 @@ const TodoList = (props) => {
           })}
         </ul>
       )}
-      {list.length === 0 && <p>No Task Found.</p>}
+      {list.length === 0 && <p>No Task Found.please add Task</p>}
     </div>
   );
 };
